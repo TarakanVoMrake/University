@@ -68,6 +68,7 @@ int main() {
 					case 4:
 						break;
 					default:
+						work1 = true;
 						error("Ви обрали неправильну дію");
 					}
 				}
